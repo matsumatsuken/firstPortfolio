@@ -1,0 +1,82 @@
+@charset"utf-8";
+body{
+	background-color: #e0ffff;
+}
+
+.contents{
+  list-style: none;
+}
+.header-name{
+  border-radius: 30px;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+h1{
+  padding: 0.4em 0.5em;
+  color: #494949;
+  background-color: #f4f4f4;
+  border-left: solid 5px #7db4e6;
+  border-bottom: solid 3px #d7d7d7;
+}
+ul{
+  list-style: none;
+}
+.index-header{
+  color: #668ad8;
+  border: dashed 2px #668ad8;
+  background-color: #f1f8ff;
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+.index-header .index-contents{
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+.index-contents{
+  font-weight: bold;
+}
+div{
+  margin-bottom: 15px;
+}
+h2{
+  border-bottom: solid 3px #27acd9;
+  padding: 10px 0;
+}
+
+/*メニューバーの装飾*/
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.menu ul li {
+  float: left;
+  border-left: 1px solid rgba(0,0,0,.1);
+}
+.menu ul li:last-child {
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+.menu ul li a {
+  display: block;
+  padding: .4em .8em;
+  text-decoration: none;
+  color: #333;
+  background: #87cefa;
+  text-align: center;
+}
+.menu ul li a:hover {
+  background: #eee;
+}
+
+#spread {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #4169e1;
+}
